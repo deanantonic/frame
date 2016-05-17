@@ -33,6 +33,11 @@ Known Errors
 4. Linux Mint 17.3 - make dev-setup fails    E: ``You must put some 'source' URIs in your sources.list``
 
                   Solution: ``Go to Software Sources and enable source code repositories.``
+                  
+                  Same error on Raspberry Pi
+                  
+                  Solution: ``sudo nano /etc/apt/sources.list & add this line to enable apt-get source: 
+                  deb-src http://archive.raspbian.org/raspbian/ jessie main contrib non-free rpi``
 
 ==========
 Quickstart
